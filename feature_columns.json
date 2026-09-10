@@ -1,0 +1,105 @@
+{
+  "cato_cols": [
+    "Station_Code",
+    "Train_Priority",
+    "Weather_Condition",
+    "Time_of_Day",
+    "Day_of_Week",
+    "Network_Congestion",
+    "Active_Incident"
+  ],
+  "num_cols": [
+    "Scheduled_Arrival_Mins"
+  ],
+  "feature_columns": [
+    "Scheduled_Arrival_Mins",
+    "Station_Code_AGC",
+    "Station_Code_BPL",
+    "Station_Code_GWL",
+    "Station_Code_HWH",
+    "Station_Code_JHS",
+    "Station_Code_MAS",
+    "Station_Code_MMCT",
+    "Station_Code_MTJ",
+    "Station_Code_NDLS",
+    "Train_Priority_FREIGHT",
+    "Train_Priority_MAIL_EXPRESS",
+    "Train_Priority_RAJDHANI",
+    "Train_Priority_SUPERFAST",
+    "Weather_Condition_CLEAR",
+    "Weather_Condition_FOG",
+    "Weather_Condition_MONSOON_STORM",
+    "Weather_Condition_RAIN",
+    "Time_of_Day_AFTERNOON",
+    "Time_of_Day_EVENING",
+    "Time_of_Day_MORNING",
+    "Time_of_Day_NIGHT",
+    "Day_of_Week_FRIDAY",
+    "Day_of_Week_MONDAY",
+    "Day_of_Week_SATURDAY",
+    "Day_of_Week_SUNDAY",
+    "Day_of_Week_THURSDAY",
+    "Day_of_Week_TUESDAY",
+    "Day_of_Week_WEDNESDAY",
+    "Network_Congestion_CRITICAL",
+    "Network_Congestion_HIGH",
+    "Network_Congestion_LOW",
+    "Network_Congestion_MEDIUM",
+    "Active_Incident_CATTLE_ON_TRACK",
+    "Active_Incident_NO",
+    "Active_Incident_SIGNAL_FAILURE",
+    "Active_Incident_TRACK_MAINTENANCE"
+  ],
+  "categories": {
+    "Station_Code": [
+      "AGC",
+      "BPL",
+      "GWL",
+      "HWH",
+      "JHS",
+      "MAS",
+      "MMCT",
+      "MTJ",
+      "NDLS"
+    ],
+    "Train_Priority": [
+      "FREIGHT",
+      "MAIL_EXPRESS",
+      "RAJDHANI",
+      "SUPERFAST"
+    ],
+    "Weather_Condition": [
+      "CLEAR",
+      "FOG",
+      "MONSOON_STORM",
+      "RAIN"
+    ],
+    "Time_of_Day": [
+      "AFTERNOON",
+      "EVENING",
+      "MORNING",
+      "NIGHT"
+    ],
+    "Day_of_Week": [
+      "FRIDAY",
+      "MONDAY",
+      "SATURDAY",
+      "SUNDAY",
+      "THURSDAY",
+      "TUESDAY",
+      "WEDNESDAY"
+    ],
+    "Network_Congestion": [
+      "CRITICAL",
+      "HIGH",
+      "LOW",
+      "MEDIUM"
+    ],
+    "Active_Incident": [
+      "CATTLE_ON_TRACK",
+      "NO",
+      "SIGNAL_FAILURE",
+      "TRACK_MAINTENANCE"
+    ]
+  }
+}
