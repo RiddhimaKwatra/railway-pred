@@ -99,7 +99,7 @@ except FileNotFoundError:
 
 categories = manifest["categories"]
 
-st.title("🚆 RailPulse")
+st.title("🚆 OnTrack")
 st.caption("Real-time dynamic ETA prediction for Indian Railways coaching trains")
 
 # ---------------------------------------------------------------------------
