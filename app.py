@@ -6,7 +6,7 @@ import joblib
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title="RailPulse — Live ETA", page_icon="🚆", layout="wide")
+st.set_page_config(page_title="OnTrack — Live ETA", page_icon="🚆", layout="wide")
 
 # ---------------------------------------------------------------------------
 # Dark theme styling
